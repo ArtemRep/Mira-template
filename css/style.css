@@ -1,10 +1,10 @@
 @font-face {
   font-family: "roboto";
-  src: url("/fonts/Roboto-VariableFont_wdth,wght.ttf");
+  src: url("../fonts/Roboto-VariableFont_wdth,wght.ttf");
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("/fonts/static/Roboto-Regular.ttf");
+  src: url("../fonts/static/Roboto-Regular.ttf");
 }
 .outer-container {
   max-width: 1200px;
@@ -435,7 +435,7 @@
 }
 
 .teams-types__list-item::marker {
-  content: url("/img/galka.png");
+  content: url("../img/galka.png");
   margin-right: 20px;
   display: block;
 }
