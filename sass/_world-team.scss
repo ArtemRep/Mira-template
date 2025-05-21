@@ -1,0 +1,77 @@
+/*!WORLD TEAM*/
+.world-team-container{
+    padding: 115px 75px 140px 75px;
+    // background-color: #FFD02F;
+
+}
+
+// .world-team-inner-container {
+    
+// }
+
+.world-team{
+    &__header{
+        
+         font-family: 'Roboto-Regular';
+        font-size: 48px;
+
+        line-height: 56px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 47px;
+        color: #050038;
+        text-align: center;
+    }
+
+    &__button{
+          font-family: 'Roboto-Regular';
+        font-size: 18px;
+        line-height: 24px;
+         color: #4262FF;
+         padding: 9px 24px;
+         border-radius: 24px;
+         background: none;
+         border: 1px solid #4262FF;
+         margin: 0 auto;
+         display: block;
+        margin-bottom: 77px;
+    }
+
+    &__card{
+        max-width: 288px;
+        box-sizing: border-box;
+    }
+
+    &__card-desc{
+        margin-top: 23px;
+         font-family: 'Roboto-Regular';
+        font-size: 18px;
+        line-height: 24px;
+         color: rgba($color: #050038, $alpha: 0.6);
+         margin-bottom: 60px;
+    }
+
+    &__card-user{
+        display: flex;
+        align-items: start;
+
+        img{
+            margin-right: 16px;
+            width: 48px;
+            height: 48px;
+            display: block;
+        }
+        p{
+            margin: 0;
+              font-family: 'Roboto-Regular';
+        font-size: 14px;
+        line-height: 20px;
+         color: rgba($color: #050038, $alpha: 0.6);
+        }
+    }
+
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+}

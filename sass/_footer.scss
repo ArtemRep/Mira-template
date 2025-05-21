@@ -1,0 +1,31 @@
+.footer-container {
+    padding: 20px 40px;
+     background-color: #050038;
+    
+}
+
+.footer {
+    &__list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__list-item-link {
+        display: block;
+        font-family: 'Roboto-Regular';
+        font-size: 16px;
+        color: #FFF;
+        line-height: 24px;
+        text-decoration: none;
+    }
+
+    &__list-item{
+         font-family: 'Roboto-Regular';
+        font-size: 16px;
+        color: #FFF;
+        line-height: 24px;
+    }
+}

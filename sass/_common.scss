@@ -1,0 +1,28 @@
+.outer-container{
+    max-width: 1200px;
+    
+    box-sizing: border-box;
+}
+
+// .inner-container{
+    
+// }
+.section-header{
+    color: #050038;
+    font-size: 48px;
+}
+
+.section-text{
+    color: rgba($color: #050038, $alpha: 1);
+    font-size: 18px;
+}
+
+.text-alpha{
+    color: rgba($color: #050038, $alpha: 0.6);
+}
+
+.section-link{
+    color: rgba($color: #4262FF, $alpha: 1);
+    font-size: 18px;
+}
+
